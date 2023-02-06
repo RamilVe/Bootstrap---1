@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section-2{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 800px;
+}
