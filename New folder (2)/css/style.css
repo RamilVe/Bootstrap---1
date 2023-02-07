@@ -4,9 +4,127 @@
     box-sizing: border-box;
 }
 
-#section-2{
+#Section-1 .bottom p{
+    color: #656565;
+}
+
+.bottom h5:hover{
+    color: #be9c79;
+    cursor: pointer;
+}
+
+#Section-2{
     background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
     background-size: cover;
     background-position: center; 
-    height: 800px;
+    padding-bottom: 70px;
+}
+
+#Section-2 .bottom img{
+    width: 100%;
+}
+
+#Section-2 .bottom p{
+    color: #656565;
+}
+
+#Section-2 .bottom span{
+    position: relative;
+    margin-left: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+#Section-2 .bottom span:hover{
+    color: #be9c79;
+    margin-left: 30px;
+}
+
+#Section-2 .bottom span::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    height: 1px;
+    width: 10px;
+    background-color: black;
+    transition: .1s;
+}
+
+#Section-2 .bottom span:hover::before{
+    background-color: #be9c79;
+    width: 13px;
+}
+
+#Section-3{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 70px;
+}
+
+#Section-3 .bottom img{
+    width: 100%;
+}
+
+#Section-3 .bottom .image{
+    position: relative;
+    cursor: pointer;
+}
+
+#Section-3 .bottom .image:hover img{
+    opacity: 0.5;
+}
+
+#Section-3 .bottom a{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: #be9c79;
+    padding: 10px 15px;
+    opacity: 0;
+}
+
+#Section-3 .bottom a:hover{
+    background-color: black;
+}
+
+#Section-3 .bottom .image:hover a{
+    opacity: 1;
+}
+
+#Section-3 .bottom p{
+    color: #656565;
+}
+
+#Section-4 .bottom img{
+    width: 100%;
+}
+
+#Section-4 .bottom .image{
+    position: relative;
+}
+
+#Section-4 .bottom .image .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+#Section-4 .bottom .image .content a:hover{
+    color: #be9c79 !important;
+}
+
+#Section-4 .bottom .image:hover img{
+    filter: brightness(0.5);
+}
+
+#Section-4 .bottom .image:hover .content{
+    opacity: 1;
 }
